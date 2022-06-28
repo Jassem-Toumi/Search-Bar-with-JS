@@ -1,0 +1,63 @@
+main {
+  margin: 0 10%;
+}
+
+.search__warppper {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  justify-content: center;
+  align-items: center;
+  margin: 5rem auto 4rem;
+}
+
+.search__warppper input {
+  width: 50%;
+  margin: 1rem auto;
+  padding: 0.5rem;
+  border-radius: 20px;
+  outline: none;
+  border: 1px solid rgb(39, 36, 36);
+}
+
+.search__warppper label {
+  font-size: 1.2rem;
+}
+
+.client__cards {
+  display: grid;
+  gap: 4rem;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+
+.card {
+  height: fit-content;
+  padding: 0 1rem;
+  border-left: 1px solid rgb(180, 180, 230);
+  border-bottom: 1px solid rgb(180, 180, 230);
+  width: 100%;
+}
+
+.card h2,
+.card h3 {
+  font-weight: lighter;
+  margin: 0.3rem auto;
+}
+
+.card h3 {
+  color: rgb(134, 132, 132);
+  margin-bottom: 1rem;
+}
+
+.card:hover {
+  background: rgb(180, 180, 230);
+  transition: all 0.3s;
+}
+
+.card:hover h3 {
+  color: black;
+}
+
+.hide {
+  display: none;
+}
